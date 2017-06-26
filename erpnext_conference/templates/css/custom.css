@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+    position: relative;
+    padding-top: 70px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #36414C;
+    text-rendering: optimizeLegibility !important;
+    line-height: 1.5em;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.navbar-brand {
+    width: 155px;
+}
+
+.navbar-icon {
+    width: 24px;
+    margin-right: 7px;
+    margin-top: -3px;
+}
+
+.heading {
+    font-weight: 500;
+}
+
+.navbar-nav .caret {
+    margin-left: 10px;
+}
+
+p.lead {
+    margin: 10px 0 20px;
+    font-size: 18px;
+}
+
+.plan p.lead {
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, .lead, .label, .h6, .sans, blockquote {
+    font-family: 'Open Sans', sans-serif;
+    color: #36414C;
+}
+
+h1 {
+    font-size: 42px;
+    padding: 16px 0;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.jumbotron {
+    padding: 3em 0;
+    font-size: 1.6em;
+    font-weight: 300;
+    min-height: 200px;
+    border-bottom: 1px solid #e1e9f0;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 42px;
+    padding: 20px 0px;
+    ;
+}
+
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.button {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(117, 116, 255);
+    font-size: 24px;
+    font-weight: 300;
+    margin: 50px;
+    padding: 20px 0;
+    width: 220px;
+    background: rgb(117, 116, 255);
+    border: 1px solid rgb(117, 116, 255);
+    border-radius: 12px;
+    color: #FFF;
+    transition: all 0.5s;
+}
+
+.button-sm {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(117, 116, 255);
+    font-size: 20px;
+    font-weight: 300;
+    margin: 25px;
+    padding: 10px 0;
+    width: 220px;
+    background: rgb(117, 116, 255);
+    border: 1px solid rgb(117, 116, 255);
+    border-radius: 12px;
+    color: #FFF;
+    transition: all 0.5s;
+}
+
+.button-sm:hover, .button-sm:active, .button:hover, .button:active {
+    text-decoration: none;
+    color: rgb(117, 116, 255);
+    border-color: rgb(117, 116, 255);
+    background: #FFF;
+}
+
+.button-sm span, .button span {
+    display: inline-block;
+    position: relative;
+    padding-right: 0;
+}
+
+.button-sm:hover span:after, .button-sm:active span:after, .button:hover span:after, .button:active span:after {
+    transition: opacity 0.5s, top 0.5s, right 0.5s;
+    opacity: 1;
+    border-color: #0C5;
+    right: 0;
+    top: 50%;
+}
+
+.thumbnail {
+    -webkit-box-shadow: 6px 6px 28px -5px rgba(37, 37, 37, 0.3);
+    -moz-box-shadow: 6px 6px 28px -5px rgba(37, 37, 37, 0.3);
+    box-shadow: 6px 6px 28px -5px rgba(37, 37, 37, 0.3);
+}
+
+.thumbnail img {
+    padding: 0.5em;
+    -webkit-filter: grayscale(80%);
+    -webkit-transition: .5s ease-in-out;
+    -moz-filter: grayscale(80%);
+    -moz-transition: .5s ease-in-out;
+    -o-filter: grayscale(80%);
+    -o-transition: .5s ease-in-out;
+}
+
+.thumbnail img:hover {
+    -webkit-filter: grayscale(0%);
+    -webkit-transition: .5s ease-in-out;
+    -moz-filter: grayscale(0%);
+    -moz-transition: .5s ease-in-out;
+    -o-filter: grayscale(0%);
+    -o-transition: .5s ease-in-out;
+}
+
+.section-panel {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    border-bottom: 1px solid #e1e9f0;
+}
+
+.section-panel div h2 {
+    padding-bottom: 1em;
+}
+
+
+/* Removes the default 20px margin and creates some padding space for the indicators and controls */
+
+.carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+}
+
+
+/* Reposition the controls slightly */
+
+.carousel-control {
+    left: -100px;
+}
+
+.carousel-control.right {
+    right: -100px;
+}
+
+
+/* Changes the position of the indicators */
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none !important;
+    filter: none !important;
+    color: #252525;
+}
