@@ -8,7 +8,7 @@
  "allow_print": 0, 
  "amount": 0.0, 
  "amount_based_on_field": 0, 
- "creation": "2017-06-27 15:16:48.607115", 
+ "creation": "2017-06-27 15:24:50.432527", 
  "doc_type": "Participant", 
  "docstatus": 0, 
  "doctype": "Web Form", 
@@ -17,18 +17,18 @@
  "is_standard": 1, 
  "login_required": 0, 
  "max_attachment_size": 0, 
- "modified": "2017-06-27 15:23:12.992963", 
+ "modified": "2017-06-27 16:58:16.648293", 
  "modified_by": "Administrator", 
  "module": "ERPNext Conference", 
- "name": "tickets", 
+ "name": "buy-tickets", 
  "owner": "Administrator", 
  "payment_button_label": "Buy Now", 
  "published": 1, 
- "route": "tickets", 
+ "route": "buy-tickets", 
  "show_sidebar": 1, 
  "sidebar_items": [], 
- "success_url": "/tickets", 
- "title": "Tickets", 
+ "success_url": "/buy-tickets", 
+ "title": "Buy Tickets", 
  "web_form_fields": [
   {
    "fieldname": "participant_name", 
@@ -84,13 +84,13 @@
   }, 
   {
    "fieldname": "total_cost", 
-   "fieldtype": "Int", 
+   "fieldtype": "Data", 
    "hidden": 0, 
    "label": "Total Cost", 
    "max_length": 0, 
    "max_value": 0, 
    "read_only": 0, 
-   "reqd": 1
+   "reqd": 0
   }
  ]
 }
