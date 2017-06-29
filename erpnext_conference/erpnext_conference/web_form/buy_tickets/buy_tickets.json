@@ -17,7 +17,7 @@
  "is_standard": 1, 
  "login_required": 0, 
  "max_attachment_size": 0, 
- "modified": "2017-06-27 16:58:16.648293", 
+ "modified": "2017-06-28 16:39:59.783935", 
  "modified_by": "Administrator", 
  "module": "ERPNext Conference", 
  "name": "buy-tickets", 
@@ -27,7 +27,7 @@
  "route": "buy-tickets", 
  "show_sidebar": 1, 
  "sidebar_items": [], 
- "success_url": "/buy-tickets", 
+ "success_url": "/desk", 
  "title": "Buy Tickets", 
  "web_form_fields": [
   {
@@ -68,27 +68,6 @@
    "max_length": 0, 
    "max_value": 0, 
    "options": "Payment Pending\nPaid\nFree", 
-   "read_only": 0, 
-   "reqd": 0
-  }, 
-  {
-   "fieldname": "tickets", 
-   "fieldtype": "Table", 
-   "hidden": 0, 
-   "label": "Tickets", 
-   "max_length": 0, 
-   "max_value": 0, 
-   "options": "Participant Ticket", 
-   "read_only": 0, 
-   "reqd": 0
-  }, 
-  {
-   "fieldname": "total_cost", 
-   "fieldtype": "Data", 
-   "hidden": 0, 
-   "label": "Total Cost", 
-   "max_length": 0, 
-   "max_value": 0, 
    "read_only": 0, 
    "reqd": 0
   }

@@ -6,7 +6,5 @@ from __future__ import unicode_literals
 from frappe.model.document import Document
 
 class Participant(Document):
-	def validate(self):
-		self.total_cost = 0
-		for ticket in self.tickets:
-			self.total_cost += ticket.cost * ticket.quantity
+	# DON'T do your magic here
+	pass
