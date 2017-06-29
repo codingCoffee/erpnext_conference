@@ -17,7 +17,7 @@
  "is_standard": 1, 
  "login_required": 0, 
  "max_attachment_size": 0, 
- "modified": "2017-06-28 16:39:59.783935", 
+ "modified": "2017-06-29 13:13:07.528899", 
  "modified_by": "Administrator", 
  "module": "ERPNext Conference", 
  "name": "buy-tickets", 
@@ -68,6 +68,17 @@
    "max_length": 0, 
    "max_value": 0, 
    "options": "Payment Pending\nPaid\nFree", 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "ticket", 
+   "fieldtype": "Table", 
+   "hidden": 0, 
+   "label": "Ticket", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "options": "Participant Ticket", 
    "read_only": 0, 
    "reqd": 0
   }
